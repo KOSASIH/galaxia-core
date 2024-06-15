@@ -1,3 +1,4 @@
-import { GalaxiaProtocol } from './protocol';
+import { GalaxiaToken } from './contracts/GalaxiaToken.sol';
+import { GalaxiaFarm } from './contracts/GalaxiaFarm.sol';
 
-export { GalaxiaProtocol };
+export { GalaxiaToken, GalaxiaFarm };
