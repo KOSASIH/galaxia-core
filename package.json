@@ -1,0 +1,34 @@
+{
+  "name": "galaxia-core",
+  "version": "1.0.0",
+  "description": "Galaxia DeFi Core",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha",
+    "lint": "eslint . --ext .ts",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@ethersproject/contracts": "^5.6.2",
+    "@ethersproject/providers": "^5.6.2",
+    "@openzeppelin/contracts": "^4.4.2",
+    "mocha": "^9.1.3",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^16.11.6",
+    "chai": "^4.3.4",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "solidity-coverage": "^0.7.20"
+  },
+  "author": "Kosasih",
+  "license": "MIT"
+}
