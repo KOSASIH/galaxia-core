@@ -15,6 +15,10 @@ class Galaxia:
         # Register routes and controllers for the application
         pass
 
+    def register_middlewares(self, app: Any):
+        # Register middlewares for the application
+        pass
+
     def start(self):
         # Start the Galaxia Core framework
         pass
